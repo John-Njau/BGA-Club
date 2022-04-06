@@ -1,4 +1,7 @@
 /* @import '~bootstrap/dist/css/bootstrap.css' */
+body{
+    color: rgb(224, 58, 58);
+}
 
 .task{
     background: #f4f4f4;

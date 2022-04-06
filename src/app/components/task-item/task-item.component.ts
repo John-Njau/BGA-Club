@@ -11,15 +11,18 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 export class TaskItemComponent implements OnInit {
   @Input() task!: Task;
   @Input() color = 'red';
-  @Output() onDeleteTask: EventEmitter<Task> = new EventEmitter
-
+  @Output() onDeleteTask: EventEmitter<Task> = new EventEmitter;
+  @Output() onToggleReminder: EventEmitter<Task> = new EventEmitter;
   faTimes = faTimes;
 
   onDelete(task) {
     confirm("Do you want to remove this task?")
     // let de = this.task
     this.onDeleteTask.emit(task);
-    
+  }
+
+  onToggle(task) {
+    this.onToggleReminder.emit(task);
   }
 
   constructor() { }

@@ -1,5 +1,53 @@
 {
-  "tasks": [],
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "May 5th at 2:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Meeting at School",
+      "day": "May 6th at 1:30pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Food Shopping",
+      "day": "May 7th at 12:30pm",
+      "reminder": true
+    },
+    {
+      "text": "Eat",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "Eat",
+      "day": "",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "cry",
+      "day": "",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "Eat",
+      "day": "yy",
+      "reminder": false,
+      "id": 7
+    },
+    {
+      "text": "Eat",
+      "day": "yy",
+      "reminder": true,
+      "id": 8
+    }
+  ],
   "products": [
     {},
     {},
